@@ -1,0 +1,50 @@
+.MainCircle {
+  margin-left: 300px;
+  margin-top: 200px;
+  border: 3px solid rgba(0, 0, 255, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.BlueCircle {
+  border: none;
+  background-color: rgba(0, 0, 255, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 250px;
+  height: 250px;
+}
+.RedCircle {
+  border: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 250px;
+  height: 250px;
+}
+.GreenCircle {
+  border: none;
+  background-color: rgba(0, 255, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 250px;
+  height: 250px;
+}
+body {
+  background-image: linear-gradient(to right,black, white);
+}
+p {
+  color: white;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 50px;
+}
